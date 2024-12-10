@@ -1,0 +1,19 @@
+.borda-red{
+    border: 1px solid red;
+}
+
+.bg-professores{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.bg-navbar{
+    background: #1248B2;
+}
+.header-table{
+    border-radius: 16px 16px 0px 0px;
+}

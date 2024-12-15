@@ -34,6 +34,7 @@
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 17 14"
+        routerLink=""
       >
         <path
           stroke="currentColor"
@@ -53,6 +54,7 @@
             href="#"
             class="block py-1 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:hover:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
             aria-current="page"
+            routerLink="/lista-professor"
             >Professores</a
           >
         </li>
@@ -60,6 +62,7 @@
           <a
             href="#"
             class="block py-1 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            routerLink="/list-salas"
             >Salas</a
           >
         </li>
@@ -67,6 +70,7 @@
           <a
             href="#"
             class="block py-2 px-3 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            routerLink="/lista-material"
             >Materias</a
           >
         </li>
@@ -74,6 +78,7 @@
           <a
             href="#"
             class="block py-2 px-5 md:p-0 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            routerLink="/lista-turmas"
             >Turmas</a
           >
         </li>
@@ -85,6 +90,7 @@
             stroke-width="1.5"
             stroke="currentColor"
             class="w-9 text-white"
+            routerLink="/perfil"
           >
             <path
               stroke-linecap="round"
@@ -99,7 +105,7 @@
 </nav>
 <div class="max-w-xl mx-auto mt-32">
   <div class="flex justify-start">
-    <h1 class="text-2xl mb-3 text-white">Cadastro de Professor</h1>
+    <h1 class="text-2xl mb-3 text-white">Edição do Professor</h1>
   </div>
   <form class="max-w-2xl mx-auto bg-white shadow-xl rounded-lg p-3">
     <!-- <div class="relative z-0 w-full mb-5 group">
@@ -202,7 +208,7 @@
       type="submit"
       class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
     >
-      Cadastrar
+      Editar
     </button>
   </form>
 </div>

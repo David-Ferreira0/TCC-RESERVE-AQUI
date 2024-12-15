@@ -13,6 +13,13 @@ import { CadastroMaterialComponent } from './cadastro-material/cadastro-material
 import { CadastroTurmaComponent } from './cadastro-turma/cadastro-turma.component';
 import { EditarProfessorComponent } from './editar-professor/editar-professor.component';
 import { PerfilUserComponent } from './perfil-user/perfil-user.component';
+import { ListaSalasComponent } from './lista-salas/lista-salas.component';
+import { EditarSalaComponent } from './editar-sala/editar-sala.component';
+import { ListaTurmasComponent } from './lista-turmas/lista-turmas.component';
+import { RecuperarSenhaComponent } from './recuperar-senha/recuperar-senha.component';
+import { EditarMaterialComponent } from './editar-material/editar-material.component';
+import { ListaMaterialComponent } from './lista-material/lista-material.component';
+import { EditarTurmaComponent } from './editar-turma/editar-turma.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +33,14 @@ import { PerfilUserComponent } from './perfil-user/perfil-user.component';
     CadastroMaterialComponent,
     CadastroTurmaComponent,
     EditarProfessorComponent,
-    PerfilUserComponent
+    PerfilUserComponent,
+    ListaSalasComponent,
+    EditarSalaComponent,
+    ListaTurmasComponent,
+    RecuperarSenhaComponent,
+    EditarMaterialComponent,
+    ListaMaterialComponent,
+    EditarTurmaComponent
   ],
   imports: [
     BrowserModule,
